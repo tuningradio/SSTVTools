@@ -45,7 +45,7 @@ def generate_sstv_signal(image_path, mode='Robot36', stream=False, output_path=N
 device_idは強制設定したい場合は数値を入れてください。 例:device_id=6  
 
 ## 既知のバグ：  
-1)MartinM2, ScottieS2 で ピクセルサイズ320x256(MartinM2, ScottieS2の本来のサイズ)を指定するとファイルサイズ変更に失敗して縦横比がおかしいSSTV信号が出てきます。MartinM1, ScottieS1だと問題ない。なんでやねん？
+1)MartinM2, ScottieS2 で ピクセルサイズ320x256(MartinM2, ScottieS2の本来のサイズ)を指定するとファイルサイズ変更に失敗してアスペクト比がおかしいSSTV信号が出てきます。MartinM1, ScottieS1だと問題ない。なんでやねん？
 
 
 

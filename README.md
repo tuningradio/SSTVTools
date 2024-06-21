@@ -27,7 +27,7 @@ python sstvtool.py -i aaaaa.png -p 320x240 -m Robot36 -o output.wav
 -o [{output_filename}.wav] SSTV信号の出力方法を指定します。-oにファイル名を付けると、信号をファイルセーブします。SSTV信号のファイル出力はWAV形式なので、拡張子は.wavにしてください。  
 -d {device_ID} ストリーミング時、オーディオ出力デバイスのID番号を指定できます。指定しない場合は既定のオーディオにSSTV信号音を出力します。  
 
-2)SSTV信号をストリーミングしたい場合  
+## 2)SSTV信号をストリーミングしたい場合  
 
 python sstvtools.py -i aaaaa.png -p 320x240 -m Robot36 -s -d 6
 

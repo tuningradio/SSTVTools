@@ -32,7 +32,7 @@ python sstvtool.py -i aaaaa.png -p 320x240 -m Robot36 -o output.wav
 python sstvtools.py -i aaaaa.png -p 320x240 -m Robot36 -s -d 6
 
 -s この起動パラメータにより、ストリーミング、つまりファイルセーブせずに直接SSTV信号音を出します。  
--d device ID 6に音声を出力します。  
+-d device ID 6にSSTV信号音を出力します。  
 
 なお、このバージョン(ver1.0.1)では文字列オーバーレイ機能の設定はソース内の数値・文字を変更してください。  
 

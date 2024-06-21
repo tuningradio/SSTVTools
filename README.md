@@ -1,7 +1,7 @@
-*sstvtool.py v1.0.1(W) by Tuningradio & Microsoft Copilot 2024.06.18  *
+# sstvtool.py v1.0.1(W) by Tuningradio & Microsoft Copilot 2024.06.18  
 Windows11 +Python3.10.nで動作確認
 
-*Ver1.0.1変更点：  *
+## Ver1.0.1変更点：  
 1)使えるSSTVモードを増やした。Robot36, MartinM1, MartinM2, ScottieS1, ScottieS2, Robot8BW, Robot24BW が指定できます。  
 2)ストリーミング時、起動パラメーターで オーディオ出力デバイスを -d/--device {device_id}で数字を指定するとそこに出力する。
 
